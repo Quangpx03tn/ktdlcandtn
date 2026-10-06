@@ -1,0 +1,1410 @@
+[
+    {
+        "id": "log_6abf731817e274.47331789",
+        "time": "2026-10-02 09:02:16",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PV01: 70",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6abf73289e3e59.07340648",
+        "time": "2026-10-02 09:02:32",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PX03: 43",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac08fee86be48.26207313",
+        "time": "2026-10-03 05:17:34",
+        "user": "admin",
+        "action": "Khóa toàn bộ phòng thi",
+        "detail": "Tất cả đơn vị",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac08feeb5d914.97556878",
+        "time": "2026-10-03 05:17:34",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac08feebde584.72310698",
+        "time": "2026-10-03 05:17:34",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0900537bb78.03369836",
+        "time": "2026-10-03 05:17:57",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac090053c29d7.72766754",
+        "time": "2026-10-03 05:17:57",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09045e844f8.82651637",
+        "time": "2026-10-03 05:19:01",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PV01",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0917e34d767.35715016",
+        "time": "2026-10-03 05:24:14",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0917f2712b6.10718583",
+        "time": "2026-10-03 05:24:15",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09192a7f8b4.21532988",
+        "time": "2026-10-03 05:24:34",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac091ee21a345.42294776",
+        "time": "2026-10-03 05:26:06",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09208ec6160.34284672",
+        "time": "2026-10-03 05:26:32",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac095ac9e9d61.14059149",
+        "time": "2026-10-03 05:42:04",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0995f4cc5a9.16981463",
+        "time": "2026-10-03 05:57:51",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09969a8f987.20906736",
+        "time": "2026-10-03 05:58:01",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0996d79afa7.70275210",
+        "time": "2026-10-03 05:58:05",
+        "user": "admin",
+        "action": "Tải bộ đề",
+        "detail": "50 bộ đề",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09973371931.32236802",
+        "time": "2026-10-03 05:58:11",
+        "user": "admin",
+        "action": "Tải bộ đề",
+        "detail": "50 bộ đề",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac099c8e62875.78805050",
+        "time": "2026-10-03 05:59:36",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09a0ec9f429.13200046",
+        "time": "2026-10-03 06:00:46",
+        "user": "admin",
+        "action": "Xuất kết quả",
+        "detail": "Tất cả đơn vị - 2 dòng",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09bfa5d3dc3.54997394",
+        "time": "2026-10-03 13:08:58",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09c08ca3db5.52030871",
+        "time": "2026-10-03 13:09:12",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09c1753e6b7.29145696",
+        "time": "2026-10-03 13:09:27",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09c1e6f40f8.04730244",
+        "time": "2026-10-03 13:09:34",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09c1f3e3c19.26420343",
+        "time": "2026-10-03 13:09:35",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09c971f2a80.35750241",
+        "time": "2026-10-03 13:11:35",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 03\/10\/2026 13:15",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09cb0925a24.43226166",
+        "time": "2026-10-03 13:12:00",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 03\/10\/2026 13:15",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09da39fe430.44392237",
+        "time": "2026-10-03 13:16:03",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09dae762ad6.53841249",
+        "time": "2026-10-03 13:16:14",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09e02d2fe50.62802225",
+        "time": "2026-10-03 13:17:38",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09e10985849.97817292",
+        "time": "2026-10-03 13:17:52",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 03\/10\/2026 13:19",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac09f3f09fe11.54652583",
+        "time": "2026-10-03 13:22:55",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a21177a953.03247951",
+        "time": "2026-10-03 13:34:57",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PV01: 0",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a2126fb228.86070318",
+        "time": "2026-10-03 13:34:58",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PX03: 43",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a2139c93a3.66386218",
+        "time": "2026-10-03 13:34:59",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PX03: 43",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a2156bf6d4.39874359",
+        "time": "2026-10-03 13:35:01",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PX03: 0",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a566ed3590.39795171",
+        "time": "2026-10-03 13:49:10",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a6144364a1.56404996",
+        "time": "2026-10-03 13:52:04",
+        "user": "admin",
+        "action": "Xóa kết quả",
+        "detail": "ID: r_6abf74715e10a9.68764428",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a6163ac097.67384312",
+        "time": "2026-10-03 13:52:06",
+        "user": "admin",
+        "action": "Xóa kết quả",
+        "detail": "ID: r_6abf71c68af8a5.84078790",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a8e81c53a1.29805228",
+        "time": "2026-10-03 14:04:08",
+        "user": "admin",
+        "action": "Xóa toàn bộ bộ đề",
+        "detail": "50 bộ đề đã xóa; ngân hàng câu hỏi được giữ nguyên",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a982ed0195.15972728",
+        "time": "2026-10-03 14:06:42",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a992556564.22861434",
+        "time": "2026-10-03 14:06:58",
+        "user": "admin",
+        "action": "Cập nhật ngân hàng câu hỏi",
+        "detail": "Thay thế: 185 câu; tổng 185",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9a2aa2f61.54501135",
+        "time": "2026-10-03 14:07:14",
+        "user": "admin",
+        "action": "Cập nhật ngân hàng câu hỏi",
+        "detail": "Gộp thêm: 185 câu; tổng 185",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b152c124.04326330",
+        "time": "2026-10-03 14:07:29",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b2182517.71204050",
+        "time": "2026-10-03 14:07:30",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b2b00456.21044662",
+        "time": "2026-10-03 14:07:30",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b3aab937.38623910",
+        "time": "2026-10-03 14:07:31",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b46f94d6.96810595",
+        "time": "2026-10-03 14:07:32",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b5214e10.98102677",
+        "time": "2026-10-03 14:07:33",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b5d35666.52607832",
+        "time": "2026-10-03 14:07:33",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b651f533.77981811",
+        "time": "2026-10-03 14:07:34",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b938a915.33290963",
+        "time": "2026-10-03 14:07:37",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9b9e8d490.27434708",
+        "time": "2026-10-03 14:07:37",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9ba991048.70453479",
+        "time": "2026-10-03 14:07:38",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9bb355b45.00552226",
+        "time": "2026-10-03 14:07:39",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9bbb7fec8.10605744",
+        "time": "2026-10-03 14:07:39",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0a9e92bc6a3.48517906",
+        "time": "2026-10-03 14:08:25",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "Xã Vĩnh Thông - 03\/10\/2026 14:10",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0aa94920098.12970028",
+        "time": "2026-10-03 14:11:16",
+        "user": "admin",
+        "action": "Cập nhật quân số",
+        "detail": "PV01: 1",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0aa9493ccf2.96794271",
+        "time": "2026-10-03 14:11:16",
+        "user": "admin",
+        "action": "Đối chiếu quân số",
+        "detail": "PV01 - 1 người",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0aca041bdf5.70967208",
+        "time": "2026-10-03 14:20:00",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0aca3446997.17970879",
+        "time": "2026-10-03 14:20:03",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0ada2ee6cd0.07803342",
+        "time": "2026-10-03 14:24:18",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0ada45b6a70.00911677",
+        "time": "2026-10-03 14:24:20",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0ada99590f1.09142484",
+        "time": "2026-10-03 14:24:25",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0adaa16ece5.05702174",
+        "time": "2026-10-03 14:24:26",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0adaa7c73c4.80914968",
+        "time": "2026-10-03 14:24:26",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0adaabe2b60.75481284",
+        "time": "2026-10-03 14:24:26",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0adaaf11ab6.52802085",
+        "time": "2026-10-03 14:24:26",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac0adac92ac50.53397692",
+        "time": "2026-10-03 14:24:28",
+        "user": "admin",
+        "action": "Đóng băng bộ đề",
+        "detail": "50 bộ đề; mã kiểm tra SHA-256: d6327bba693f2b782c7e833ab7c63f97527a028a77382a59e88aab8a9a78b8ae",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac1394eb874d9.82899650",
+        "time": "2026-10-04 00:20:14",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "127.0.0.1"
+    },
+    {
+        "id": "log_6ac13993937965.02635778",
+        "time": "2026-10-04 00:21:23",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13a0b4568a6.93543156",
+        "time": "2026-10-04 00:23:23",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13abd7f9616.45372333",
+        "time": "2026-10-04 00:26:21",
+        "user": "admin",
+        "action": "Cập nhật ngân hàng câu hỏi",
+        "detail": "Thay thế: 185 câu; tổng 185",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ad8dfdd14.92145538",
+        "time": "2026-10-04 00:26:48",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ae1c5fb11.99492328",
+        "time": "2026-10-04 00:26:57",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ae29d4d91.97759397",
+        "time": "2026-10-04 00:26:58",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ae3506614.78690208",
+        "time": "2026-10-04 00:26:59",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ae40cbc20.46759476",
+        "time": "2026-10-04 00:27:00",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ae49fb820.43359218",
+        "time": "2026-10-04 00:27:00",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ae61e83f5.43629925",
+        "time": "2026-10-04 00:27:02",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13aeb051431.76562809",
+        "time": "2026-10-04 00:27:07",
+        "user": "admin",
+        "action": "Đóng băng bộ đề",
+        "detail": "50 bộ đề; mã kiểm tra SHA-256: 24f86bce37f4c3a3336361afb860bcb4ae7516ba3d3a4a92a37421068b0d0e6f",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13af955c0c5.18762646",
+        "time": "2026-10-04 00:27:21",
+        "user": "admin",
+        "action": "Upload ngân hàng đề lên server",
+        "detail": "50 bộ đề đã sẵn sàng gán ngẫu nhiên cho thí sinh; SHA-256: 24f86bce37f4c3a3336361afb860bcb4ae7516ba3d3a4a92a37421068b0d0e6f",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13b67490684.13699196",
+        "time": "2026-10-04 00:29:11",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "Xã Vĩnh Thông",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13bfca10a28.96104282",
+        "time": "2026-10-04 00:31:40",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PA02",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13bfe8d58a8.85518014",
+        "time": "2026-10-04 00:31:42",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PA02",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ce0f3dac1.95293891",
+        "time": "2026-10-04 00:35:28",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 25\/10\/2026 08:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ce6abc3d2.10467354",
+        "time": "2026-10-04 00:35:34",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 24\/10\/2026 22:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13ce791e029.93262755",
+        "time": "2026-10-04 00:35:35",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 24\/10\/2026 12:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13cf288e266.38332861",
+        "time": "2026-10-04 00:35:46",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 24\/10\/2026 08:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d013c7c21.69850492",
+        "time": "2026-10-04 00:36:01",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 23\/10\/2026 10:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d0c3804a7.12725171",
+        "time": "2026-10-04 00:36:12",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 23\/10\/2026 06:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d1038c102.70176177",
+        "time": "2026-10-04 00:36:16",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 22\/10\/2026 20:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d1154cd49.24047959",
+        "time": "2026-10-04 00:36:17",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 22\/10\/2026 10:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d1197fcf8.51406121",
+        "time": "2026-10-04 00:36:17",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 22\/10\/2026 00:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d2a328aa0.52355949",
+        "time": "2026-10-04 00:36:42",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 21\/10\/2026 08:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d2df1df24.74416942",
+        "time": "2026-10-04 00:36:45",
+        "user": "admin",
+        "action": "Hủy hẹn mở phòng",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d3fefcbf1.40525318",
+        "time": "2026-10-04 00:37:03",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 12\/10\/2026 08:40",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13d631ca928.03381157",
+        "time": "2026-10-04 00:37:39",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 08\/10\/2026 10:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac13e23584467.91111462",
+        "time": "2026-10-04 00:40:51",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 09\/10\/2026 08:30",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1ab57b657e8.51926211",
+        "time": "2026-10-04 08:26:47",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1ab5d78f5d2.52687970",
+        "time": "2026-10-04 08:26:53",
+        "user": "admin",
+        "action": "Hủy hẹn mở phòng",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1ab680b05b2.05626489",
+        "time": "2026-10-04 08:27:04",
+        "user": "admin",
+        "action": "Mở toàn bộ phòng thi",
+        "detail": "Tất cả đơn vị",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1abb406d4d8.84541491",
+        "time": "2026-10-04 08:28:20",
+        "user": "admin",
+        "action": "Khóa toàn bộ phòng thi",
+        "detail": "Tất cả đơn vị",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1abb54e8ad9.68315964",
+        "time": "2026-10-04 08:28:21",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PV01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1abb6c327d7.75593072",
+        "time": "2026-10-04 08:28:22",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PV01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1abd0890ec6.41821277",
+        "time": "2026-10-04 08:28:48",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 22\/10\/2026 20:00",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac1abf6afa186.29147055",
+        "time": "2026-10-04 08:29:26",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 16\/10\/2026 08:00",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ec1cb275f2.09397516",
+        "time": "2026-10-05 07:15:24",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2eca4beb4e9.17422755",
+        "time": "2026-10-05 07:17:40",
+        "user": "admin",
+        "action": "Cập nhật ngân hàng câu hỏi",
+        "detail": "Thay thế: 185 câu; tổng 185",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecacbb6a17.10564901",
+        "time": "2026-10-05 07:17:48",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecae51a451.00832636",
+        "time": "2026-10-05 07:17:50",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecaeaf2e26.73850268",
+        "time": "2026-10-05 07:17:50",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecaf20a829.65893696",
+        "time": "2026-10-05 07:17:51",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecaf43d339.09010165",
+        "time": "2026-10-05 07:17:51",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecaf68f822.50047892",
+        "time": "2026-10-05 07:17:51",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "5 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb235b6e5.22703078",
+        "time": "2026-10-05 07:17:54",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb2e17c89.59680770",
+        "time": "2026-10-05 07:17:54",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb31bc989.05199877",
+        "time": "2026-10-05 07:17:55",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb34234d8.07881352",
+        "time": "2026-10-05 07:17:55",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb3649080.12381462",
+        "time": "2026-10-05 07:17:55",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb38bcab1.39498452",
+        "time": "2026-10-05 07:17:55",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecb3b17c49.86131330",
+        "time": "2026-10-05 07:17:55",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecc3e7e332.28768507",
+        "time": "2026-10-05 07:18:11",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "100 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ecc8d9d9e6.33354018",
+        "time": "2026-10-05 07:18:16",
+        "user": "admin",
+        "action": "Đóng băng bộ đề",
+        "detail": "100 bộ đề; mã kiểm tra SHA-256: a74e6bb3dbe875d4e4f0a362097dabb242765185ba47e071bec6742ed2079df7",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ff0b56a174.60993810",
+        "time": "2026-10-05 08:36:11",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ff3ce55865.79127169",
+        "time": "2026-10-05 08:37:00",
+        "user": "admin",
+        "action": "Hủy hẹn mở phòng",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ff6aed49c1.29544855",
+        "time": "2026-10-05 08:37:46",
+        "user": "admin",
+        "action": "Mở toàn bộ phòng thi",
+        "detail": "Tất cả đơn vị",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ff7536bf28.04938846",
+        "time": "2026-10-05 08:37:57",
+        "user": "admin",
+        "action": "Khóa toàn bộ phòng thi",
+        "detail": "Tất cả đơn vị",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ff931a9428.71103737",
+        "time": "2026-10-05 08:38:27",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 05\/10\/2026 08:40",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffd5318e98.04003674",
+        "time": "2026-10-05 08:39:33",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffdfcf2fc5.86552862",
+        "time": "2026-10-05 08:39:43",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffe8c40721.62018332",
+        "time": "2026-10-05 08:39:52",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX05",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffe9a4ac02.05771807",
+        "time": "2026-10-05 08:39:53",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffea471086.16484399",
+        "time": "2026-10-05 08:39:54",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PX01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffead592a4.34251051",
+        "time": "2026-10-05 08:39:54",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PV01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffeb7bc041.61008487",
+        "time": "2026-10-05 08:39:55",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "PH10",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffecb473c8.10546998",
+        "time": "2026-10-05 08:39:56",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PV01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffed50a614.91722234",
+        "time": "2026-10-05 08:39:57",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PH10",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffede14b08.08942602",
+        "time": "2026-10-05 08:39:57",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2ffee992426.56438741",
+        "time": "2026-10-05 08:39:58",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2fff0e19d96.42178411",
+        "time": "2026-10-05 08:40:00",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX05",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac2fffcdf3a42.52236579",
+        "time": "2026-10-05 08:40:12",
+        "user": "admin",
+        "action": "Mở phòng thi",
+        "detail": "Phòng thi bổ sung",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac300230e7b76.55068789",
+        "time": "2026-10-05 08:40:51",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "Phòng thi bổ sung",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac300f23409c3.57728581",
+        "time": "2026-10-05 08:44:18",
+        "user": "admin",
+        "action": "Cập nhật ngân hàng câu hỏi",
+        "detail": "Thay thế: 184 câu; tổng 184",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30109cb7f37.58187975",
+        "time": "2026-10-05 08:44:41",
+        "user": "admin",
+        "action": "Cập nhật ngân hàng câu hỏi",
+        "detail": "Thay thế: 184 câu; tổng 184",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30148223930.96022942",
+        "time": "2026-10-05 08:45:44",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3014c5e34e8.80589501",
+        "time": "2026-10-05 08:45:48",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3014f487be2.41102135",
+        "time": "2026-10-05 08:45:51",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3014fc72461.14823351",
+        "time": "2026-10-05 08:45:51",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30150644d55.41931952",
+        "time": "2026-10-05 08:45:52",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30150d30883.66803280",
+        "time": "2026-10-05 08:45:52",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac301514253a9.09399096",
+        "time": "2026-10-05 08:45:53",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30151c321e6.20959321",
+        "time": "2026-10-05 08:45:53",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac301524e5975.76981534",
+        "time": "2026-10-05 08:45:54",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3015f272621.20680578",
+        "time": "2026-10-05 08:46:07",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30160c75309.50048715",
+        "time": "2026-10-05 08:46:08",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3016150eb73.05265025",
+        "time": "2026-10-05 08:46:09",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30161c745b9.68301327",
+        "time": "2026-10-05 08:46:09",
+        "user": "admin",
+        "action": "Tạo bộ đề",
+        "detail": "50 bộ đề đã được lưu",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac30618051e02.13036199",
+        "time": "2026-10-05 09:06:16",
+        "user": "admin",
+        "action": "Đăng xuất",
+        "detail": "Đăng xuất Admin",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3061e977523.76478019",
+        "time": "2026-10-05 09:06:22",
+        "user": "admin",
+        "action": "Đăng nhập",
+        "detail": "Đăng nhập Admin thành công",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35556c8c4c6.87265318",
+        "time": "2026-10-05 14:44:22",
+        "user": "admin",
+        "action": "Đối chiếu Thông tư theo Excel",
+        "detail": "Phường Đức Xuân - khớp 0\/9",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3557f9ef398.03997559",
+        "time": "2026-10-05 14:45:03",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac356469ef663.99361727",
+        "time": "2026-10-05 14:48:22",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PV01 - 05\/10\/2026 14:50",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35bb31e6914.77407629",
+        "time": "2026-10-05 15:11:31",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 05\/10\/2026 15:15",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35bc04955a2.20145462",
+        "time": "2026-10-05 15:11:44",
+        "user": "admin",
+        "action": "Hẹn giờ đóng phòng",
+        "detail": "PX03 - 05\/10\/2026 18:15",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35bc5d22c52.33263282",
+        "time": "2026-10-05 15:11:49",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PV01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35c3888d5d4.41629274",
+        "time": "2026-10-05 15:13:44",
+        "user": "admin",
+        "action": "Tải bộ đề",
+        "detail": "50 bộ đề",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35c8e62c296.40938410",
+        "time": "2026-10-05 15:15:10",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PV01 - 10\/10\/2026 08:20",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35ca522ae48.15811797",
+        "time": "2026-10-05 15:15:33",
+        "user": "admin",
+        "action": "Hẹn giờ đóng phòng",
+        "detail": "PV01 - 10\/10\/2026 10:00",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35d8ee9a597.11843640",
+        "time": "2026-10-05 15:19:26",
+        "user": "admin",
+        "action": "Hẹn giờ đóng phòng",
+        "detail": "PX03 - 05\/10\/2026 15:20",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35d906cc163.88677895",
+        "time": "2026-10-05 15:19:28",
+        "user": "admin",
+        "action": "Hủy hẹn đóng phòng",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35d99ab2c69.96570097",
+        "time": "2026-10-05 15:19:37",
+        "user": "admin",
+        "action": "Khóa phòng thi",
+        "detail": "PX03",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35da63bcf20.45155445",
+        "time": "2026-10-05 15:19:50",
+        "user": "admin",
+        "action": "Hẹn giờ mở phòng",
+        "detail": "PX03 - 05\/10\/2026 15:20",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac35daf18dab6.28399816",
+        "time": "2026-10-05 15:19:59",
+        "user": "admin",
+        "action": "Hẹn giờ đóng phòng",
+        "detail": "PX03 - 05\/10\/2026 15:22",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac3600d1ae213.51257574",
+        "time": "2026-10-05 15:30:05",
+        "user": "admin",
+        "action": "Hủy hẹn đóng phòng",
+        "detail": "PV01",
+        "ip": "::1"
+    },
+    {
+        "id": "log_6ac360100b2436.10843056",
+        "time": "2026-10-05 15:30:08",
+        "user": "admin",
+        "action": "Hủy hẹn mở phòng",
+        "detail": "PV01",
+        "ip": "::1"
+    }
+]

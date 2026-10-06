@@ -1,0 +1,13 @@
+{
+    "default_open": false,
+    "rooms": {
+        "PX03": false,
+        "PX05": false,
+        "PX01": false,
+        "PV01": false,
+        "PH10": false,
+        "Phòng thi bổ sung": false
+    },
+    "scheduled_open": [],
+    "scheduled_close": []
+}

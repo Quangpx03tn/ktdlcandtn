@@ -1,0 +1,6 @@
+{
+    "quiz_duration_minutes": 6,
+    "pass_percent": 50,
+    "excellent_percent": 80,
+    "fast_warning_seconds": 30
+}

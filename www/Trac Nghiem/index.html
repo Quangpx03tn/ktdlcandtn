@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#003366">
+  <title>Hệ thống Kiểm tra Trắc nghiệm - Công an Nhân dân</title>
+  <link rel="stylesheet" href="styles.css?v=20261003-10">
+  <link rel="stylesheet" href="ui-dialog.css?v=20261003-1">
+</head>
+<body>
+  <div id="app">
+    <div class="live-presence-bar" aria-label="Thống kê truy cập thời gian thực">
+      <span><i class="presence-dot online"></i>Online: <strong data-live-online>0</strong></span>
+      <span><i class="presence-dot exam"></i>Đang thi: <strong data-live-examining>0</strong></span>
+      <span>👁 Tổng lượt truy cập: <strong data-live-visits>0</strong></span>
+    </div>
+    <!-- Màn hình Đăng nhập -->
+    <section id="login-screen" class="screen active">
+      <div class="login-container">
+        <div class="logo-area">
+          <img class="login-emblem" src="assets/ca-hieu.png" alt="Công an hiệu" width="96" height="96">
+          <h1>CÔNG AN TỈNH THÁI NGUYÊN</h1>
+          <p class="subtitle"> Kiểm tra lý thuyết điều lệnh CAND </p>
+        </div>
+        <div class="google-login-area">
+          <div id="google-signin-button"></div>
+          <p id="google-login-status">Đang kiểm tra cấu hình Google…</p>
+        </div>
+        <div class="login-divider"><span>hoặc đăng nhập thử nghiệm</span></div>
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">Đăng nhập bằng Gmail</label>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Mật khẩu hệ thống</label>
+            <input type="password" id="password" placeholder="Nhập mật khẩu" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Đăng nhập</button>
+          <p class="note">*Phần mềm do đội Điều lệnh - CA tỉnh Thái Nguyên phát triển.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Màn hình Chọn Khối / Đơn vị -->
+    <section id="unit-screen" class="screen">
+      <header class="app-header">
+        <h2>Chọn Khối & Đơn vị</h2>
+        <div class="user-info">
+          <span id="user-email-display"></span>
+          <button id="logout-btn" class="btn btn-sm">Đăng xuất</button>
+        </div>
+      </header>
+      <div class="unit-search-wrap">
+        <label for="unit-search">Tìm kiếm đơn vị</label>
+        <div class="unit-search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="unit-search" type="search" placeholder="Nhập tên hoặc mã đơn vị..." autocomplete="off">
+        </div>
+        <p id="unit-search-empty" class="unit-search-empty" hidden>Không tìm thấy đơn vị phù hợp.</p>
+      </div>
+      <div class="unit-container">
+        <div class="block-card" data-block="tham-muu">
+          <h3>Khối Tham mưu – Xây dựng lực lượng – Hậu cần</h3>
+          <div class="unit-list" id="list-tham-muu"></div>
+        </div>
+        <div class="block-card" data-block="an-ninh">
+          <h3>Khối An ninh</h3>
+          <div class="unit-list" id="list-an-ninh"></div>
+        </div>
+        <div class="block-card" data-block="canh-sat">
+          <h3>Khối Cảnh sát</h3>
+          <div class="unit-list" id="list-canh-sat"></div>
+        </div>
+        <div class="block-card block-card-local" data-block="phuong">
+          <h3>Công an Phường</h3>
+          <div class="unit-list" id="list-phuong"></div>
+        </div>
+        <div class="block-card block-card-local" data-block="xa-bac">
+          <h3>CAX – Phía Bắc</h3>
+          <div class="unit-list" id="list-xa-bac"></div>
+        </div>
+        <div class="block-card block-card-local" data-block="xa-nam">
+          <h3>CAX – Phía Nam</h3>
+          <div class="unit-list" id="list-xa-nam"></div>
+        </div>
+        <div class="block-card block-card-reserve" data-block="du-phong">
+          <h3>Phòng thi bổ sung</h3>
+          <p class="reserve-room-note">Dành cho CBCS chưa tham gia dự thi.</p>
+          <div class="unit-list" id="list-du-phong"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Màn hình Thông tin Cá nhân -->
+    <section id="info-screen" class="screen">
+      <header class="app-header">
+        <h2>Thông tin Thí sinh</h2>
+        <button id="back-to-unit" class="btn btn-sm">← Quay lại</button>
+      </header>
+      <div class="form-container">
+        <p class="selected-unit">Đơn vị đã chọn: <strong id="selected-unit-name"></strong></p>
+        <div id="room-schedule-notice" class="room-time-notice" hidden></div>
+        <form id="info-form">
+          <div class="form-group">
+            <label for="fullname">Họ và Tên *</label>
+            <input type="text" id="fullname" required placeholder="Nguyễn Văn A">
+          </div>
+          <div class="form-group">
+            <label for="rank">Cấp bậc *</label>
+            <select id="rank" required>
+              <option value="">-- Chọn cấp bậc --</option>
+              <option value="Chiến sĩ">Chiến sĩ</option>
+              <option value="Hạ sĩ">Hạ sĩ</option>
+              <option value="Trung sĩ">Trung sĩ</option>
+              <option value="Thượng sĩ">Thượng sĩ</option>
+              <option value="Thiếu úy">Thiếu úy</option>
+              <option value="Trung úy">Trung úy</option>
+              <option value="Thượng úy">Thượng úy</option>
+              <option value="Đại úy">Đại úy</option>
+              <option value="Thiếu tá">Thiếu tá</option>
+              <option value="Trung tá">Trung tá</option>
+              <option value="Thượng tá">Thượng tá</option>
+              <option value="Đại tá">Đại tá</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="team">Đội Công tác *</label>
+            <input type="text" id="team" required placeholder="Đội 1 / Tổ ...">
+          </div>
+          <div class="form-group">
+            <label for="num-questions">Số câu hỏi muốn làm *</label>
+            <select id="num-questions" required>
+              <option value="10">10 câu</option>
+              <option value="15">15 câu</option>
+              <option value="20" selected>20 câu</option>
+              <option value="25">25 câu</option>
+              <option value="30">30 câu</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Bắt đầu Kiểm tra</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Màn hình Làm bài -->
+    <section id="quiz-screen" class="screen">
+      <header class="app-header quiz-header">
+        <h2>Làm bài Trắc nghiệm</h2>
+        <span id="timer">Còn lại: 06:00</span>
+        <div class="quiz-meta">
+          <span id="exam-code-display">Mã đề: —</span>
+          <span id="question-counter">Câu 1/20</span>
+        </div>
+      </header>
+      <div id="exam-room-notice" class="room-time-notice exam-room-time-notice" hidden></div>
+      <div class="quiz-layout">
+        <div class="quiz-container">
+          <div id="question-box">
+            <h3 id="question-text"></h3>
+            <div id="options-box"></div>
+          </div>
+          <div class="quiz-nav">
+            <button id="prev-btn" class="btn btn-secondary" disabled>← Câu trước</button>
+            <button id="next-btn" class="btn btn-primary">Câu tiếp →</button>
+            <button id="submit-quiz-btn" class="btn btn-success" style="display:none;">Nộp bài</button>
+          </div>
+        </div>
+
+        <aside class="question-nav-panel">
+          <h4 class="nav-panel-title">Danh sách câu hỏi</h4>
+          <div class="nav-legend">
+            <span><i class="dot dot-current"></i> Đang làm</span>
+            <span><i class="dot dot-answered"></i> Đã làm</span>
+            <span><i class="dot dot-unanswered"></i> Chưa làm</span>
+          </div>
+          <div id="question-nav-grid" class="question-nav-grid"></div>
+          <div class="nav-panel-summary">
+            Đã làm: <strong id="nav-answered-count">0</strong>/<span id="nav-total-count">20</span>
+          </div>
+          <div class="submit-panel">
+            <h5>Nộp bài thi</h5>
+            <p>Kiểm tra số câu đã làm trước khi nộp.</p>
+            <button id="side-submit-quiz-btn" type="button" class="btn btn-success">Nộp bài</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Màn hình Kết quả -->
+    <section id="result-screen" class="screen">
+      <header class="app-header">
+        <h2>Kết quả Kiểm tra</h2>
+      </header>
+      <div class="result-container">
+        <div id="result-summary" class="result-card">
+          <h3 id="result-status"></h3>
+          <p><strong>Họ tên:</strong> <span id="res-fullname"></span></p>
+          <p><strong>Cấp bậc:</strong> <span id="res-rank"></span></p>
+          <p><strong>Đội công tác:</strong> <span id="res-team"></span></p>
+          <p><strong>Đơn vị:</strong> <span id="res-unit"></span></p>
+          <p><strong>Mã đề:</strong> <span id="res-exam-code"></span></p>
+          <p><strong>Tổng câu:</strong> <span id="res-total"></span></p>
+          <p><strong>Đúng:</strong> <span id="res-correct" class="correct"></span></p>
+          <p><strong>Sai:</strong> <span id="res-wrong" class="wrong"></span></p>
+          <p><strong>Tỷ lệ:</strong> <span id="res-percent"></span></p>
+          <p><strong>Xếp loại:</strong> <span id="res-grade" style="font-weight:bold; font-size:18px;"></span></p>
+        </div>
+        <div class="result-actions">
+          <p style="text-align:center; color:#666; font-size:14px; margin-bottom:15px;">
+            Kết quả đã được gửi về hệ thống.<br>
+            <strong>Chỉ Admin mới có quyền quản lý và tải file Excel.</strong><br>
+            <em>Không được làm lại bài thi này.</em>
+          </p>
+          <button id="new-test-btn" class="btn btn-primary">Kiểm tra mới (chọn đơn vị khác)</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="ui-dialog.js?v=20261003-1"></script>
+  <script src="https://accounts.google.com/gsi/client?hl=vi" async defer onload="window.initGoogleOAuth && window.initGoogleOAuth()"></script>
+  <script src="data.js?v=20261003-8"></script>
+  <script src="app.js?v=20261003-17"></script>
+</body>
+</html>
+
